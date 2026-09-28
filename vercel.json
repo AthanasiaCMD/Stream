@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/movies", "destination": "/api/movies" },
+    { "source": "/api/stream", "destination": "/api/stream" },
+    { "source": "/play/:type/:id", "destination": "/play.html" },
+    { "source": "/home",      "destination": "/index.html" },
+    { "source": "/search",    "destination": "/index.html" },
+    { "source": "/favorites", "destination": "/index.html" },
+    { "source": "/history",   "destination": "/index.html" },
+    { "source": "/profile",   "destination": "/index.html" }
+  ]
+}
